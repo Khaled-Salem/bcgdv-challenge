@@ -5,7 +5,7 @@ import bcgdv.challenge.Repo.DiscountRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import java.util.List;
 
 @Service
 public class DiscountService {
@@ -18,5 +18,9 @@ public class DiscountService {
 
     public Discount getDiscountByWatchId(Integer id) {
         return discountRepo.findByWatchId(id).orElse(null);
+    }
+
+    public List<Discount> getAllDiscounts() {
+        return discountRepo.findAll();
     }
 }

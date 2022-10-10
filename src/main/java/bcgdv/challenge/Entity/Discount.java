@@ -28,8 +28,8 @@ public class Discount {
         return id;
     }
 
-    public Watch getWatch() {
-        return watch;
+    public Integer getWatchId() {
+        return watchId;
     }
 
     public Integer getQuantity() {
