@@ -1,6 +1,6 @@
-package Service;
+package bcgdv.challenge.Service;
 
-import Entity.Watch;
+import bcgdv.challenge.Entity.Watch;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package Entity;
+package bcgdv.challenge.Entity;
 
 import javax.persistence.*;
 
@@ -27,6 +27,10 @@ public class Watch {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public Integer getPrice() {

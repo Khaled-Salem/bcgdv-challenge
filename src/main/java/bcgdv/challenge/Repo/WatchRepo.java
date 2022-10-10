@@ -1,6 +1,6 @@
-package Repo;
+package bcgdv.challenge.Repo;
 
-import Entity.Watch;
+import bcgdv.challenge.Entity.Watch;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
