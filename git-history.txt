@@ -1,0 +1,79 @@
+commit 875e2a3410207dc1089efdd599716f2b4b42d491
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Tue Oct 11 00:06:38 2022 +0200
+
+    Swagger and OpenAPI 3.0
+
+commit d901ff7de3370b9145934d9cc5d85ccc16667be7
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Tue Oct 11 00:06:22 2022 +0200
+
+    Testing
+
+commit 2a44e7ab108f4971b80cb0b543c7dbc8bf3ec2ca
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 15:10:47 2022 +0200
+
+    Code is refactored and easier to understand
+
+commit 98cc44762c0047ce275f992c6d0ac3f06369ae59
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 15:01:54 2022 +0200
+
+    Challenge solved
+    
+    Challenge is solved. Need to check if refactoring is possible and then testing
+
+commit 81821ceb60505d0225b78ac830b3a42947d9aa33
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 14:07:48 2022 +0200
+
+    Discount in separate table
+    
+    Decoupled the discount from watch table for more flexibility
+
+commit 352d4a95a06016f80639a34477e829603645f753
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 12:48:00 2022 +0200
+
+    Added a new HomePage controller
+    
+    This endpoint will give the user a range of watches to pick from with info about discounts available
+
+commit 7544d1551127f3ca17857d70d935a936afb4c745
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 12:27:52 2022 +0200
+
+    Changed to in memory db
+
+commit d952992126ada4ffeac9b7a182aa76fa4fa571b4
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 12:09:56 2022 +0200
+
+    Setting up the controller, service, repo, and entity
+
+commit 5aec9e6925b875f5f64b9bb5099302aa5f39d61f
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 11:41:49 2022 +0200
+
+    Adding db.trace file to gitignore
+    
+    No need to push changes for this file
+
+commit 2bd3a3e14c3711f8278fea9815104f51b256a8f3
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 11:40:20 2022 +0200
+
+    Setting up database connection
+
+commit c752ae2294cb2f18dadb67967ff9457699bbb5a8
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 04:25:59 2022 +0200
+
+    Initial commit
+
+commit 1391fba6bc91bf37f1991c63807f155b1ad88c7d
+Author: Khaled Salem <khaled.salem9419@gmail.com>
+Date:   Mon Oct 10 04:24:55 2022 +0200
+
+    Initial commit

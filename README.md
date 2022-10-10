@@ -1,11 +1,13 @@
 # bcgdv-challenge
 # General Info
-1. PHP coding wise would have been much easier, but I felt it'll be easiest for this challenge as a whole to use Java
+1. Coding wise, PHP would have been much easier, but I felt it'll be easiest for this challenge as a whole to use Java
 2. Application runs on port 8080 
 3. Using H2 database (accessible through /h2)
-4. Tables are prefilled. Add more in resources/data.sql 
+4. Tables are prefilled. Add more if needed in resources/data.sql 
 5. /watches will get you available watches in the inventory 
 6. /discounts will get you info about available discounts in the shop
+7. /api-docs to get info about all endpoints
+8. Could run all tests on swagger (/swagger-ui/index.html)
 
 # My Approach
 I try to apply SOLID principles in my work for small or big projects. 
