@@ -26,7 +26,7 @@ public class CheckoutService {
             Watch watch = watchService.getWatch(watchId);
 
             int discount = calculateDiscount(watchId, reps);
-            price += watch.getPrice() - discount;
+            price += (watch.getPrice() * reps) - discount;
         }
 
         return price;
@@ -46,7 +46,7 @@ public class CheckoutService {
         return repetitions;
     }
 
-    private Integer calculateDiscount(Integer watchId, int reps) {
+    protected Integer calculateDiscount(Integer watchId, int reps) {
         Discount discountEntity = discountService.getDiscountByWatchId(watchId);
 
         return discountEntity != null ? (reps / discountEntity.getQuantity()) * discountEntity.getDeductedValue() : 0;
