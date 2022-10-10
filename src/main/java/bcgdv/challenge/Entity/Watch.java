@@ -1,6 +1,7 @@
 package bcgdv.challenge.Entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Watch {
@@ -8,17 +9,12 @@ public class Watch {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "name", nullable = false)
+    @Column(name = "name", nullable = false, unique = true)
     private String name;
 
     @Column(name = "price", nullable = false)
     private Integer price;
 
-    @Column(name = "discount_quantity")
-    private Integer discountQuantity;
-
-    @Column(name = "discount_value")
-    private Integer discountValue;
 
 
     public String getName() {
@@ -39,21 +35,5 @@ public class Watch {
 
     public void setPrice(Integer price) {
         this.price = price;
-    }
-
-    public Integer getDiscountQuantity() {
-        return discountQuantity;
-    }
-
-    public void setDiscountQuantity(Integer discountQuantity) {
-        this.discountQuantity = discountQuantity;
-    }
-
-    public Integer getDiscountValue() {
-        return discountValue;
-    }
-
-    public void setDiscountValue(Integer discountValue) {
-        this.discountValue = discountValue;
     }
 }
